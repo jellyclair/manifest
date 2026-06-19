@@ -63,4 +63,5 @@ In the Ubuntu build environment, you may run the currently compiled build with t
 
 Credits
 -------
-Froyocomb (For the manifests)
+Froyocomb (for the manifests)
+faux (for the CyanogenMod 4.0 local manifest)
