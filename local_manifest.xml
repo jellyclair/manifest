@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github" fetch="git://github.com/" />
+    <remote name="github" fetch="https://github.com/" />
     <remote name="gitorious" fetch="https://gitorious.org" />
 
-    <project path="external/flac" name="kruton/android_external_flac" remote="github" revision="refs/heads/master" />
+    <project path="external/flac" name="kruton/android_external_flac" remote="github" revision="3c276f4d58833251300b772c184b13c8c6f6a82c" />
 
-    <project path="external/openobex" name="android-obex/openobex" remote="gitorious" revision="refs/heads/master" />
-    <project path="external/obexpushd" name="android-obex/obexpushd" remote="gitorious" revision="refs/heads/master" />
-    <project path="external/obexftp" name="android-obex/obexftp" remote="gitorious" revision="refs/heads/master" />
+    <project path="external/openobex" name="jellyclair/openobex" remote="github" revision="refs/heads/master" />
+    <project path="external/obexpushd" name="jellyclair/obexpushd" remote="github" revision="refs/heads/master" />
+    <project path="external/obexftp" name="jellyclair/obexftp" remote="github" revision="refs/heads/master" />
 
     <remove-project name="platform/dalvik" />
     <remove-project name="platform/external/zlib" />
