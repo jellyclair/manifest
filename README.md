@@ -60,3 +60,7 @@ You can run the compiled build with the Android Emulator.
 In the Ubuntu build environment, you may run the currently compiled build with the in-tree emulator by executing the command:
 
     emulator
+
+Credits
+-------
+Froyocomb (For the manifests)
