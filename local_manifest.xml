@@ -4,11 +4,11 @@
     <remote name="gitorious" fetch="https://gitorious.org" />
 
     <project path="external/flac" name="kruton/android_external_flac" remote="github" revision="3c276f4d58833251300b772c184b13c8c6f6a82c" />
-
+<!--
     <project path="external/openobex" name="jellyclair/openobex" remote="github" revision="refs/heads/master" />
     <project path="external/obexpushd" name="jellyclair/obexpushd" remote="github" revision="refs/heads/master" />
     <project path="external/obexftp" name="jellyclair/obexftp" remote="github" revision="refs/heads/master" />
-
+-->
     <remove-project name="platform/dalvik" />
     <remove-project name="platform/external/zlib" />
     <remove-project name="platform/prebuilt" />
@@ -36,38 +36,38 @@
     <remove-project name="platform/external/libpcap" />
     <remove-project name="platform/external/sqlite" />
 
-    <project path="external/libpcap" name="platform/external/libpcap" revision="refs/heads/donut" />
-    <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/heads/donut" />
+    <project path="external/libpcap" name="platform/external/libpcap" revision="donut-release" />
+    <project path="external/tcpdump" name="platform/external/tcpdump" revision="donut-release" />
 
-    <project path="dalvik" name="platform/dalvik" revision="refs/heads/donut" />
-    <project path="external/zlib" name="platform/external/zlib" revision="refs/heads/donut" />
-    <project path="external/openssl" name="platform/external/openssl" revision="refs/heads/donut" />
-    <project path="external/libpng" name="platform/external/libpng" revision="refs/heads/donut" />
-    <project path="prebuilt" name="platform/prebuilt" revision="refs/heads/donut" />
-    <project path="external/webkit" name="platform/external/webkit" revision="refs/heads/donut" />
-    <project path="external/iptables" name="platform/external/iptables" revision="refs/heads/donut" />
-    <project path="external/ppp" name="platform/external/ppp" revision="refs/heads/donut" />
-    <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="refs/heads/donut" />
+    <project path="dalvik" name="platform/dalvik" revision="donut-release2" />
+    <project path="external/zlib" name="platform/external/zlib" revision="donut-release2" />
+    <project path="external/openssl" name="platform/external/openssl" revision="donut-release2" />
+    <project path="external/libpng" name="platform/external/libpng" revision="donut-release2" />
+    <project path="prebuilt" name="platform/prebuilt" revision="donut-release2" />
+    <project path="external/webkit" name="platform/external/webkit" revision="donut-release2" />
+    <project path="external/iptables" name="platform/external/iptables" revision="donut-release2" />
+    <project path="external/ppp" name="platform/external/ppp" revision="donut-release2" />
+    <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="donut-release2" />
 
-    <project path="external/skia" name="platform/external/skia" revision="refs/heads/donut" />
-    <project path="external/elfcopy" name="platform/external/elfcopy" revision="refs/heads/donut" />
-    <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="refs/heads/donut" />
-    <project path="external/dbus" name="platform/external/dbus" revision="refs/heads/donut" />
-    <project path="external/bluez" name="platform/external/bluez" revision="refs/heads/donut" />
-    <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="refs/heads/donut" />
-    <project path="system/extras" name="platform/system/extras" revision="refs/heads/donut" />
-    <project path="external/qemu" name="platform/external/qemu" revision="refs/heads/donut" />
-    <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="refs/heads/donut" />
+    <project path="external/skia" name="platform/external/skia" revision="donut-release2" />
+    <project path="external/elfcopy" name="platform/external/elfcopy" revision="donut-release2" />
+    <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="donut-release2" />
+    <project path="external/dbus" name="platform/external/dbus" revision="donut-release2" />
+    <project path="external/bluez" name="platform/external/bluez" revision="donut-release2" />
+    <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="donut-release2" />
+    <project path="system/extras" name="platform/system/extras" revision="donut-release2" />
+    <project path="external/qemu" name="platform/external/qemu" revision="donut-release2" />
+    <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="donut-release2" />
 
-    <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/heads/donut" />
-    <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="refs/heads/donut" />
-    <project path="external/sqlite" name="platform/external/sqlite" revision="refs/heads/donut" />
+    <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="donut-release2" />
+    <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="donut-release2" />
+    <project path="external/sqlite" name="platform/external/sqlite" revision="donut-release2" />
 
-    <project path="external/mtpd" name="platform/external/mtpd" revision="refs/heads/donut" />
-    <project path="external/junit" name="platform/external/junit" revision="refs/heads/donut" />
-    <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/heads/donut" />
-    <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/heads/donut" />
-    <project path="packages/providers/WebSearchProvider" name ="platform/packages/providers/WebSearchProvider" revision="refs/heads/donut" />
+    <project path="external/mtpd" name="platform/external/mtpd" revision="donut-release2" />
+    <project path="external/junit" name="platform/external/junit" revision="donut-release2" />
+    <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="donut-release2" />
+    <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="donut-release2" />
+    <project path="packages/providers/WebSearchProvider" name ="platform/packages/providers/WebSearchProvider" revision="donut-release2" />
 
     <remove-project name="platform/bootable/recovery" />
     <remove-project name="platform/build" />
