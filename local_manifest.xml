@@ -36,8 +36,8 @@
     <remove-project name="platform/external/libpcap" />
     <remove-project name="platform/external/sqlite" />
 
-    <project path="external/libpcap" name="platform/external/libpcap" revision="donut-release" />
-    <project path="external/tcpdump" name="platform/external/tcpdump" revision="donut-release" />
+    <project path="external/libpcap" name="platform/external/libpcap" revision="donut-release2" />
+    <project path="external/tcpdump" name="platform/external/tcpdump" revision="donut-release2" />
 
     <project path="dalvik" name="platform/dalvik" revision="donut-release2" />
     <project path="external/zlib" name="platform/external/zlib" revision="donut-release2" />
@@ -91,9 +91,9 @@
     <remove-project name="platform/vendor/htc/dream-open" />
     <remove-project name="platform/hardware/msm7k" />
 
-    <project path="bootable/recovery" name="cyanogen/android_bootable_recovery" revision="refs/heads/master" remote="github" />
-    <project path="build" name="cyanogen/android_build" revision="refs/heads/master" remote="github" />
-    <project path="external/opencore" name="cyanogen/android_external_opencore" revision="refs/heads/master" remote="github" />
+    <project path="bootable/recovery" name="rikupw/android_bootable_recovery" revision="7e684a91ebedf03e2c706f40803377dc4b5eaec7" remote="github" />
+    <project path="build" name="abstrakraft/android_build" revision="master" remote="github" />
+    <project path="external/opencore" name="jellyclair/android_external_opencore" revision="cm-4.0" remote="github" />
     <project path="frameworks/base" name="cyanogen/android_frameworks_base" revision="refs/heads/master" remote="github" />
     <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" revision="refs/heads/master" remote="github" />
     <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" revision="refs/heads/master" remote="github" />
