@@ -94,7 +94,7 @@
     <project path="bootable/recovery" name="rikupw/android_bootable_recovery" revision="7e684a91ebedf03e2c706f40803377dc4b5eaec7" remote="github" />
     <project path="build" name="abstrakraft/android_build" revision="master" remote="github" />
     <project path="external/opencore" name="jellyclair/android_external_opencore" revision="cm-4.0" remote="github" />
-    <project path="frameworks/base" name="cyanogen/android_frameworks_base" revision="refs/heads/master" remote="github" />
+    <project path="frameworks/base" name="jellyclair/android_frameworks_base" revision="cm-4.0" remote="github" />
     <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" revision="refs/heads/master" remote="github" />
     <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" revision="refs/heads/master" remote="github" />
     <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" revision="refs/heads/master" remote="github" />
